@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,300;1,400&display=swap');
+
+:root {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	--main-color: #2d2013;
+}
+body {
+	font-family: 'Roboto', sans-serif;
+	background-color: var(--main-color);
+	color: #fff;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+input,
+.searchBtn {
+	border-radius: 5px;
+	padding: 5px;
+}
+#random {
+	padding: 4px;
+}
+#search {
+	margin-right: -6px;
+}
